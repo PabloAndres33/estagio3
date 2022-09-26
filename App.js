@@ -3,8 +3,7 @@ import React, {useState, useEffect} from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import {Home, Login} from './views';
-import Principal from './views/Principal';
+import {Home, Login, Cadastro, Principal} from './views';
 
 
 export default function App() {
@@ -15,11 +14,12 @@ export default function App() {
           <Stack.Screen name="Home" component={Home} 
           options={{
             title:"Bem Vindo ao TechPhone!",
-            headerStyle:{backgroundColor:"#800080"},
+            headerStyle:{backgroundColor:"#8c52ff"},
             headerTintColor:'#333',
             headerTitleStyle:{fontWeight:'bold', alignSelf:'center'}
             }}/>
           <Stack.Screen name="Login" options={{headerShown:false}} component={Login} />
+          <Stack.Screen name="Cadastro" component={Cadastro} />
           <Stack.Screen name="Principal" component={Principal} />
         </Stack.Navigator>
       </NavigationContainer>

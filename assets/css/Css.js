@@ -35,7 +35,7 @@ const css = StyleSheet.create({
     },
     login__button:{
         padding: 12,
-        backgroundColor: "#800080",
+        backgroundColor: "#8c52ff",
         alignSelf:"center",
         borderRadius:5
     },

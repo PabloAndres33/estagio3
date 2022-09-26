@@ -39,7 +39,7 @@ export default function Login({navigation}) {
     return (
         <KeyboardAvoidingView behavior={Platform.OS == "ios" ? "padding" : "height"} style={[css.container, css.darkbg]}>
             <View style={css.login__logomarca}>
-              <Image source={require('../assets/TECHPHONE.png')}></Image>
+              <Image source={require('../assets/techlogo.png')}></Image>
             </View>
 
             <View>
