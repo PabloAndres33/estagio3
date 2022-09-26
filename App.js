@@ -19,7 +19,7 @@ export default function App() {
             headerTitleStyle:{fontWeight:'bold', alignSelf:'center'}
             }}/>
           <Stack.Screen name="Login" options={{headerShown:false}} component={Login} />
-          <Stack.Screen name="Cadastro" component={Cadastro} />
+          <Stack.Screen name="Cadastro" options={{headerShown:false}} component={Cadastro} />
           <Stack.Screen name="Principal" component={Principal} />
         </Stack.Navigator>
       </NavigationContainer>

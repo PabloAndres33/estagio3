@@ -24,6 +24,21 @@ app.post('/login', async (req, res)=>{
     }
 });
 
+app.post('/create',async (req,res)=>{
+
+    let response = await user.create({
+     email: req.body.email,
+     password: req.body.password
+   });
+   if(response === null){
+    res.send(JSON.stringify('error'));
+}else{
+    res.send(response);
+}
+
+
+});
+
 let port = process.env.PORT || 3000;
 app.listen(port, (req, res)=>{
     console.log('Servidor está rodando!')
