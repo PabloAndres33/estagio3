@@ -7,7 +7,7 @@
     "icon": "./assets/techlogo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashtechphone2.png",
       "resizeMode": "cover",
       "backgroundColor": "#000"
     },

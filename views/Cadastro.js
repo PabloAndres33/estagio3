@@ -41,9 +41,6 @@ export default function Cadastro({navigation}) {
             <View style={css.login__logomarca}>
               <Image source={require('../assets/techlogo.png')}></Image>
             </View>
-
-            
-
             <View style={css.login__form}>
                 <TextInput style={css.login__input} placeholder='Usuário' onChangeText={text=>setUser(text)}></TextInput>
                 <TextInput style={css.login__input} placeholder='Senha' onChangeText={text=>setPassword(text)} secureTextEntry={true}></TextInput>

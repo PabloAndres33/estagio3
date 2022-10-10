@@ -12,7 +12,7 @@ const css = StyleSheet.create({
         padding: 20
     },
     darkbg:{
-        backgroundColor:"#333"
+        backgroundColor:"#11385b"
     },
     login__logomarca:{
         marginBottom: 10
@@ -43,6 +43,20 @@ const css = StyleSheet.create({
         fontWeight:"bold",
         fontSize: 22,
         color:"#333"
+    },
+    login__button_menu:{
+        padding: 12,
+        backgroundColor: "#8c52ff",
+        alignSelf:"center",
+        borderRadius:5
+    },
+    login__logomarca__menu:{
+        marginBottom: 10
+    },
+    login__buttonText__menu:{
+        fontWeight:"bold",
+        fontSize: 22,
+        color:"#11385b"
     }
 });
 export {css};
