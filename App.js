@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import {Home, Login, Cadastro, Principal} from './views';
+import {Test} from './views';
 
 
 export default function App() {
