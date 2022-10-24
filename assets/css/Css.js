@@ -4,18 +4,19 @@ const css = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center',
+        
     },
     textPage:{
         backgroundColor:'orange',
         padding: 20
     },
     darkbg:{
-        backgroundColor:"#11385b"
+        backgroundColor:"#11385b",
     },
     login__logomarca:{
-        marginBottom: 10
+        marginTop: 10,
+        alignItems: 'center',
+        justifyContent: 'center',
     },
     login__msg:(text='none')=>({
         fontWeight:"bold",
@@ -51,7 +52,10 @@ const css = StyleSheet.create({
         borderRadius:5
     },
     login__logomarca__menu:{
-        marginBottom: 10
+        marginBottom: 10,
+        alignItems: 'center',
+        justifyContent: 'center',
+        
     },
     login__buttonText__menu:{
         fontWeight:"bold",
